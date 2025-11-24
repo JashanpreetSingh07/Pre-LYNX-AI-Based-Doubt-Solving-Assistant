@@ -1,0 +1,182 @@
+[
+    {
+        "id": "yt_001",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=abcdefghijk",
+        "transcript_snippet": "In this tutorial, we explore the basics of Python programming including variables, loops, and conditional statements.",
+        "sample_timestamp": "00:01:10",
+        "query": "Why are variables introduced before loops?",
+        "expected_answer": "Variables are introduced first to explain how data is stored, which is essential before showing how loops operate on that data."
+    },
+    {
+        "id": "yt_002",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lmnopqrstuv",
+        "transcript_snippet": "Today, we dive into algorithm analysis and discuss the concept of time complexity, comparing O(n) and O(n^2) behaviors.",
+        "sample_timestamp": "00:02:30",
+        "query": "What does high time complexity mean in this context?",
+        "expected_answer": "High time complexity means that the algorithm takes significantly more time to run as the size of the input increases, often resulting in slower performance."
+    },
+    {
+        "id": "yt_003",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xyz12345678",
+        "transcript_snippet": "This session covers the fundamentals of object-oriented programming, focusing on classes, objects, and inheritance.",
+        "sample_timestamp": "00:03:45",
+        "query": "Why is inheritance important in object-oriented programming?",
+        "expected_answer": "Inheritance allows new classes to adopt the properties and methods of existing classes, promoting code reuse and logical hierarchy."
+    },
+    {
+        "id": "yt_004",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=abcd1234efgh",
+        "transcript_snippet": "In this video, we discuss the importance of clean code and how to refactor your code for better readability and maintainability.",
+        "sample_timestamp": "00:04:20",
+        "query": "What is the main benefit of writing clean code?",
+        "expected_answer": "Clean code is easier to read, understand, and maintain, which reduces the likelihood of bugs and improves collaboration among developers."
+    },
+    {
+        "id": "yt_005",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ijkl5678mnop",
+        "transcript_snippet": "This tutorial explains the concept of recursion with examples, including factorial calculation and Fibonacci sequence generation.",
+        "sample_timestamp": "00:05:15",
+        "query": "Why is recursion useful in programming?",
+        "expected_answer": "Recursion simplifies solving problems that can be broken down into smaller, similar subproblems, such as tree traversal or mathematical computations."
+    },
+    {
+        "id": "yt_006",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qrst9012uvwx",
+        "transcript_snippet": "We explore the basics of database management systems, focusing on SQL queries and relational database design.",
+        "sample_timestamp": "00:03:50",
+        "query": "What is the purpose of a relational database?",
+        "expected_answer": "A relational database organizes data into tables with relationships, making it easier to store, retrieve, and manage structured data efficiently."
+    },
+    {
+        "id": "yt_007",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yzab3456cdef",
+        "transcript_snippet": "This session introduces the concept of APIs, explaining how they enable communication between different software systems.",
+        "sample_timestamp": "00:02:45",
+        "query": "What is the role of an API in software development?",
+        "expected_answer": "APIs allow different software systems to communicate and share data, enabling integration and extending functionality without exposing internal code."
+    },
+    {
+        "id": "yt_008",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ghij7890klmn",
+        "transcript_snippet": "Learn about the basics of machine learning, including supervised and unsupervised learning, and their real-world applications.",
+        "sample_timestamp": "00:06:10",
+        "query": "What is the difference between supervised and unsupervised learning?",
+        "expected_answer": "Supervised learning uses labeled data to train models, while unsupervised learning identifies patterns and structures in unlabeled data."
+    },
+    {
+        "id": "yt_009",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mnop1234qrst",
+        "transcript_snippet": "In this video, we discuss the principles of Agile development and how it improves project management and team collaboration.",
+        "sample_timestamp": "00:07:30",
+        "query": "What are the key principles of Agile development?",
+        "expected_answer": "Agile development emphasizes flexibility, customer collaboration, and iterative progress, allowing teams to adapt to changes quickly."
+    },
+    {
+        "id": "yt_010",
+        "content_type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uvwx5678yzab",
+        "transcript_snippet": "This tutorial covers the basics of web development, including HTML, CSS, and JavaScript fundamentals.",
+        "sample_timestamp": "00:08:15",
+        "query": "Why is JavaScript essential for web development?",
+        "expected_answer": "JavaScript enables dynamic content and interactivity on web pages, making it a crucial component of modern web development."
+    },
+    {
+        "id": "art_001",
+        "content_type": "article",
+        "url": "https://www.example.com/python-intro",
+        "article_text": "Python is a high-level, interpreted language known for its simplicity and readability. This article introduces the core concepts of Python, such as variables, data types, and basic control flow, and provides examples of writing your first Python program.",
+        "sample_quote": "Python is a high-level, interpreted language known for its simplicity and readability.",
+        "query": "What makes Python simple and readable?",
+        "expected_answer": "Python's syntax is clear and straightforward, which makes it easier to write and understand code compared to more verbose programming languages."
+    },
+    {
+        "id": "art_002",
+        "content_type": "article",
+        "url": "https://www.example.com/advanced-python",
+        "article_text": "Advanced Python techniques include generators, decorators, and context managers. These tools allow developers to write more efficient, cleaner, and maintainable code. Understanding these concepts can elevate your programming skills significantly.",
+        "sample_quote": "Advanced Python techniques include generators, decorators, and context managers.",
+        "query": "How do decorators enhance Python programming?",
+        "expected_answer": "Decorators allow you to modify or extend the behavior of functions or classes without changing their source code, making your code more modular and reusable."
+    },
+    {
+        "id": "art_003",
+        "content_type": "article",
+        "url": "https://www.example.com/data-science-python",
+        "article_text": "Python has become a dominant language in data science due to libraries like NumPy, Pandas, and Matplotlib. These libraries simplify data manipulation, analysis, and visualization, making Python a top choice for data scientists.",
+        "sample_quote": "Python has become a dominant language in data science due to libraries like NumPy, Pandas, and Matplotlib.",
+        "query": "Why is Python preferred in data science?",
+        "expected_answer": "Python's extensive libraries and ease of use make it ideal for data analysis and visualization, which are critical in data science workflows."
+    },
+    {
+        "id": "art_004",
+        "content_type": "article",
+        "url": "https://www.example.com/clean-code-principles",
+        "article_text": "Clean code principles emphasize simplicity, readability, and maintainability. Following these principles ensures that your codebase remains robust and easy to work with over time.",
+        "sample_quote": "Clean code principles emphasize simplicity, readability, and maintainability.",
+        "query": "How do clean code principles benefit developers?",
+        "expected_answer": "They make the code easier to understand and modify, reducing technical debt and improving collaboration among team members."
+    },
+    {
+        "id": "art_005",
+        "content_type": "article",
+        "url": "https://www.example.com/recursion-explained",
+        "article_text": "Recursion is a programming technique where a function calls itself to solve smaller instances of a problem. It is commonly used in algorithms like quicksort and mergesort.",
+        "sample_quote": "Recursion is a programming technique where a function calls itself.",
+        "query": "What are common use cases for recursion?",
+        "expected_answer": "Recursion is often used in algorithms for sorting, searching, and traversing data structures like trees and graphs."
+    },
+    {
+        "id": "art_006",
+        "content_type": "article",
+        "url": "https://www.example.com/sql-basics",
+        "article_text": "SQL is a powerful language for managing and querying relational databases. This article covers basic SQL commands like SELECT, INSERT, UPDATE, and DELETE.",
+        "sample_quote": "SQL is a powerful language for managing and querying relational databases.",
+        "query": "What is the purpose of the SELECT command in SQL?",
+        "expected_answer": "The SELECT command is used to retrieve specific data from one or more tables in a database."
+    },
+    {
+        "id": "art_007",
+        "content_type": "article",
+        "url": "https://www.example.com/api-introduction",
+        "article_text": "APIs, or Application Programming Interfaces, are tools that allow different software systems to communicate. They are essential for building modern web and mobile applications.",
+        "sample_quote": "APIs are tools that allow different software systems to communicate.",
+        "query": "Why are APIs important in modern software development?",
+        "expected_answer": "APIs enable seamless integration between systems, allowing developers to build scalable and modular applications."
+    },
+    {
+        "id": "art_008",
+        "content_type": "article",
+        "url": "https://www.example.com/machine-learning-overview",
+        "article_text": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn from data. It has applications in fields like healthcare, finance, and autonomous vehicles.",
+        "sample_quote": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn from data.",
+        "query": "What are some real-world applications of machine learning?",
+        "expected_answer": "Machine learning is used in healthcare for diagnostics, in finance for fraud detection, and in autonomous vehicles for navigation and decision-making."
+    },
+    {
+        "id": "art_009",
+        "content_type": "article",
+        "url": "https://www.example.com/agile-development-principles",
+        "article_text": "Agile development is a methodology that promotes iterative progress, collaboration, and flexibility in software development. It emphasizes customer feedback and adaptive planning.",
+        "sample_quote": "Agile development promotes iterative progress, collaboration, and flexibility.",
+        "query": "What are the key benefits of Agile development?",
+        "expected_answer": "Agile development allows teams to respond quickly to changes, improve product quality through continuous feedback, and enhance team collaboration."
+    },
+    {
+        "id": "art_010",
+        "content_type": "article",
+        "url": "https://www.example.com/web-development-basics",
+        "article_text": "Web development involves creating websites and applications for the internet. This article covers the fundamental technologies: HTML for structure, CSS for styling, and JavaScript for interactivity.",
+        "sample_quote": "Web development involves creating websites and applications for the internet.",
+        "query": "Why is JavaScript essential for web development?",
+        "expected_answer": "JavaScript enables dynamic content and interactivity on web pages, making it a crucial component of modern web development."
+    }
+]
